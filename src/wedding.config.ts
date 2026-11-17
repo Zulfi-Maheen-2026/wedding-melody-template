@@ -18,23 +18,23 @@
 export const wedding = {
   // ---------- The couple ----------
   couple: {
-    partner1: "Aarav",
-    partner2: "Diya",
+    partner1: "Zulficar",
+    partner2: "Maheen",
   },
 
   // ---------- Date ----------
   // Short date shown on the big welcome screen and in the footer.
-  date: "December 12, 2026",
+  date: "December 27, 2026",
   // Full date shown above the timeline.
-  dateWithDay: "Saturday, December 12, 2026",
+  dateWithDay: "Sunday, December 27, 2026",
 
   // ---------- Welcome screen (top of the page) ----------
   hero: {
     // A small blessing or greeting shown above your names. Use "" to hide it.
-    blessing: "Shree Ganeshaya Namah",
+    blessing: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
     // A short quote shown below the date. Use "" to hide it.
     quote:
-      "As our love has brought a new meaning to our life, so will our marriage bring a new meaning to love",
+      "And He placed between you affection and mercy. — Surah Ar-Rum (30:21)",
     // Background video (MP4, under 5 MB is best). Use "" to show the image below instead.
     video: "",
     // Background image, used when there is no video.
@@ -49,87 +49,87 @@ export const wedding = {
   // Add or remove events by copying or deleting a whole { ... } block.
   events: [
     {
-      name: "Baraat",
-      time: "9:30 AM",
-      description: "The groom arrives with family and friends",
-      image: "/images/event-1.svg",
+      name: "Mehndi & Haldi Ceremony",
+      time: "Date & time to be announced",
+      description: "An evening of vibrant colors, cherished traditions, laughter, and beautiful memories as we celebrate the beginning of our wedding festivities.",
+      image: "/images/mehndi.jpg",
     },
     {
-      name: "Wedding Ceremony",
-      time: "12:30 PM",
-      description: "The sacred ceremony of joining hands",
-      image: "/images/event-2.svg",
+      name: "Nikah & Baraat",
+      time: "Sunday, December 27 · Time to be announced",
+      description: "Two hearts, two families, and one sacred promise. Join us as Zulficar and Maheen unite in the blessed bond of Nikah.",
+      image: "/images/nikah.jpg",
     },
     {
-      name: "Lunch",
-      time: "1:00 PM Onwards",
-      description: "A celebratory feast for all our guests",
-      image: "/images/event-3.svg",
+      name: "Walima Reception",
+      time: "Tuesday, December 29 (tentative) · Time to be announced",
+      description: "With gratitude to Almighty Allah, we invite you to celebrate our new beginning with an evening of togetherness, blessings, and joyful memories.",
+      image: "/images/walima.jpg",
     },
   ],
 
   // ---------- Families ----------
   families: {
-    sectionIntro: "With blessings from",
+    sectionIntro: "With the blessings of Almighty Allah",
     // Add or remove family cards the same way as events.
     groups: [
       {
         title: "Groom's Parents",
-        names: "Mrs. Kavita & Mr. Suresh Sharma",
-        message: "request the pleasure of your company",
+        names: "Mr. Shakir Ahmed & Mrs. Jahanara Parvin",
+        message: "request the honour of your presence at the wedding of their beloved son Zulficar Ali Ahmed with Maheen Khan",
         // Optional extra line inside the card, such as siblings. Use "" for both to hide it.
-        extraTitle: "Groom's Brother",
-        extraNames: "Kabir Sharma",
+        extraTitle: "Sisters & Family",
+        extraNames: "Mrs. Kaniz Fatima & Mr. Jamaluddin, Ms. Syada Bano",
       },
       {
-        title: "Bride's Parents",
-        names: "Mrs. Anjali & Mr. Rakesh Mehta",
-        message: "bless this sacred union",
+        title: "Bride's Family",
+        names: "The Family of Maheen Khan",
+        message: "warmly invite you to witness and celebrate her blessed union with Zulficar Ali Ahmed",
         extraTitle: "",
         extraNames: "",
       },
     ],
     // Optional tribute to elders, with a photo. Set "names" to [] to hide this box.
     elders: {
-      heading: "With eternal blessings from",
-      names: ["Late Shri Mohan Sharma", "Late Smt. Leela Sharma"],
+      heading: "With duas and blessings from",
+      names: [],
       photo: "/images/elders.svg",
     },
   },
 
   // ---------- Venue ----------
   venue: {
-    name: "The Grand Celebration Hall",
-    addressLine1: "Hall No. 2, Ground Floor",
-    addressLine2: "Connaught Place, New Delhi",
+    name: "Officers' Association B.S.P. – Pragati Bhawan",
+    addressLine1: "Civic Center Area, Sector 5 / Sector 6",
+    addressLine2: "Bhilai, Chhattisgarh, India",
     // What to search on Google Maps to find the venue.
     // Tip: copy the exact venue name and city from Google Maps.
-    mapSearch: "Connaught Place, New Delhi",
+    mapSearch: "Officers Association BSP Pragati Bhawan, Bhilai",
   },
 
   // ---------- Footer (bottom of the page) ----------
   footer: {
     // Short line under the address. Use "" to hide it.
-    blessingLine: "Om Shree Ganeshaya Namah",
+    blessingLine: "Two Souls, One Beautiful Destiny. United by Love, Blessed by Allah.",
   },
 
   // ---------- Background music ----------
   music: {
     // MP3 file in public/audio. Use "" to turn music off completely.
-    file: "/audio/wedding.mp3",
+    file: "",
     // Volume from 0 (silent) to 1 (full).
     volume: 0.3,
     // Android phones block music until the guest taps. This welcome box asks them to tap.
-    welcomeTitle: "Welcome to Aarav & Diya's Wedding",
-    welcomeMessage: "Step into our world of love, laughter, and forever.",
+    welcomeTitle: "Welcome to Zulficar & Maheen's Nikah",
+    welcomeMessage: "Your presence, prayers, and blessings will make our celebration truly memorable.",
     welcomeButton: "Enter the Celebration",
   },
 
   // ---------- Link preview (WhatsApp, iMessage, social media) ----------
   share: {
-    title: "Aarav & Diya | Wedding Celebration",
+    title: "Zulficar & Maheen | The Royal Nikah Celebration",
     description:
-      "Join us in celebrating the wedding of Aarav & Diya on December 12, 2026 in New Delhi.",
+      "Join us in celebrating the Nikah of Zulficar & Maheen on December 27, 2026 in Bhilai.",
     // Image shown in the link preview. A 1200 x 630 JPG works best.
     image: "/images/share-preview.jpg",
   },
